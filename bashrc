@@ -1,0 +1,1 @@
+source $HOME/.config/dot_files/alias.sh
