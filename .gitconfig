@@ -1,0 +1,14 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[user]
+	name = Lara Perinetti
+	email = perinettilara16@gmail.com
+[alias]
+	lg = log --graph --decorate --pretty=online --abbrev-commit
+	st = status
+	co = checkout
+	cm = commit -m
