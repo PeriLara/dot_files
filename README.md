@@ -5,7 +5,7 @@ mv alias.sh ~/.config/
 mv gitconfig ~/.gitconfig
 
 
-mv .zshrc ~/.zshrc
+mv zshrc ~/.zshrc
 
 source ~/.zshrc
 
